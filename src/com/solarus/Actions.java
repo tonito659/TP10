@@ -11,7 +11,7 @@ public class Actions extends Applet implements ActionListener{
         showStatus("Action sur le composant : " + composant);
     }
 
-    public void init() {
+    public void main() {
         super.init();
         Button b1 = new Button("boutton 1");
         b1.addActionListener(this);

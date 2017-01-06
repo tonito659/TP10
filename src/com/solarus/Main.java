@@ -1,6 +1,8 @@
 package com.solarus;
 
 import edu.princeton.cs.introcs.StdDraw;
+
+import java.awt.*;
 import java.util.Scanner;
 
 
@@ -16,8 +18,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int taille_goban = 0;
 
+
+        double[] x0 = { 0.1, 0.2, 0.3, 0.2 };
+        double[] y0 = { 0.2, 0.3, 0.2, 0.1 };
+        StdDraw.setPenColor(Color.BLUE);
+        StdDraw.filledRectangle(10,10, 4, 3);
+
+
         System.out.println("taille du goban ? 9,13,19");
         taille_goban = sc.nextInt();
+
+
 
 
 
