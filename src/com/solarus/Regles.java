@@ -1,4 +1,5 @@
 package com.solarus;
+import edu.princeton.cs.introcs.StdDraw;
 
 /**
  * Created by Antoine on 06/01/2017.
